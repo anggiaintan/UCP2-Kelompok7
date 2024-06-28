@@ -248,6 +248,19 @@ body {
     background-color: #0056b3;
 }
 
+.footer-bottom {
+    text-align: center; /* Pusatkan teks */
+    padding: 10px 0; /* Ruang di atas dan bawah teks */
+    color: #777; /* Warna teks */
+    font-size: 14px; /* Ukuran teks */
+}
+
+.footers {
+    background-color:#aaa; /* Warna latar belakang footer */
+    color: white; /* Warna teks pada footer */
+    padding: 50px 0; /* Ruang dalam footer */
+}
+
 .footer {
     background-color: white; /* Ubah latar belakang menjadi putih */
     color: #333; /* Warna teks menjadi gelap */
