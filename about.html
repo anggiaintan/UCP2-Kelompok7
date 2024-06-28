@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project UAS PDW Kelompok 7</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="navbar">
+        <img src="assets/logo.png" alt="Logo"> <!-- Replace with your logo path -->
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+    </div>
+    
+    <div id="main">
+        <img id="image-background" src="assets/bg.jpg" alt="Background Image"> <!-- Replace with your background image path -->
+        <h1>OUR CATALOG</h1>
+    </div>
+
+    <div class="grid-container">
+        <!-- Product Grid Items -->
+        <div class="grid-item" onclick="openModal('modal1')">
+            <img src="assets/product1.png" alt="Product 1">
+            <p>HSA Call Me Bento</p>
+            <p>Rp 150.000</p>
+        </div>
+        <div class="grid-item" onclick="openModal('modal2')">
+            <img src="assets/product2.png" alt="Product 2">
+            <p>HSA Fresh Book Passion</p>
+            <p>Rp 160.000</p>
+        </div>
+        <div class="grid-item" onclick="openModal('modal3')">
+            <img src="assets/product3.png" alt="Product 3">
+            <p>HSA Chillin Baby</p>
+            <p>Rp 155.000</p>
+        </div>
+        <div class="grid-item" onclick="openModal('modal4')">
+            <img src="assets/product4.png" alt="Product 4">
+            <p>HSA Scorpio</p>
+            <p>Rp 180.000</p>
+        </div>
+        <div class="grid-item" onclick="openModal('modal5')">
+            <img src="assets/product5.png" alt="Product 5">
+            <p>HSA FWB</p>
+            <p>Rp 190.000</p>
+        </div>
+        <div class="grid-item" onclick="openModal('modal6')">
+            <img src="assets/product6.png" alt="Product 6">
+            <p>HSA Rose</p>
+            <p>Rp 175.000</p>
+        </div>
+    </div>
+
+    <!-- Modals -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <img src="assets/product1.png" alt="Product 1">
+        <p>HSA Call Me Bento memiliki aroma Ambery,Woody, dan Musky yang mewah sehingga bisa membuat kamu mau dikenal banyak orang, serta bikin kamu serasa jadi boss beneran.</p>
+    </div>
+</div>
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <img src="assets/product2.png" alt="Product 2">
+        <p>HSA Fresh Book Passion memiliki top notes fruity cocktail of blackcurrant, red apple, raspberry dan mango, middle notesnya floral bouquet of jasmine, violet, plum dan blach fig. Lalu based notesnya ada musk, sandalwood, cedarwood, amber dan vanilla</p>
+    </div>
+</div>
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+        <img src="assets/product3.png" alt="Product 3">
+        <p>HSA Chillin Baby merupakan parfum unisex yang dilengkapi dengan aroma floral dan fruity. Parfum unisex ini sangat cocok digunakan untuk menemani aktivitas sehari-hari.</p>
+    </div>
+</div>
+<div id="modal4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal4')">&times;</span>
+        <img src="assets/product4.png" alt="Product 4">
+        <p>HSA Scorpio ini memiliki kandungan pink pepper, orange blossom, jasmine, coffee, vanilla, patchouli, cedarwood, parfum ini merupakan parfum lokal dengan wangi yang kalem dan bisa bertahan lama.</p>
+    </div>
+</div>
+<div id="modal5" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal5')">&times;</span>
+        <img src="assets/product5.png" alt="Product 5">
+        <p>HSA FWB merupakan parfum yang mempunyai ciri khas wangi Perpaduan dari Fresh dan Ambery. Parfum ini dapat menambah rasa percaya diri yang tinggi dan dapat digunakan untuk pria atau wanita.</p>
+    </div>
+</div>
+<div id="modal6" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal6')">&times;</span>
+        <img src="assets/product6.png" alt="Product 6">
+        <p>HSA Rose parfum wanita tahan lama dengan aroma Sweet oriental floral on a woody, musky and powdery base. Cocok untuk pesta.</p>
+    </div>
+</div>
+    <!-- Additional Content Section -->
+    <div class="additional-content">
+        <h2>About Our Products</h2>
+        <p>Parfum kami terbuat dari bahan-bahan terbaik, memastikan keharuman yang tahan lama dan menawan. Jelajahi koleksi kami untuk menemukan aroma sempurna yang mencerminkan kepribadian Anda.</p>
+    </div>
+
+    <!-- Icons and Image Section -->
+    <div class="icon-image-section">
+        <div class="icons">
+            <!-- Icon 1 -->
+            <div class="icon-item">
+                <i class="fa-solid fa-truck-fast"></i>
+                <p><strong>Fast Delivery</strong></p>
+                <p>Dapatkan produk Anda dikirimkan dengan cepat.</p>
+            </div>
+            <!-- Icon 3 -->
+            <div class="icon-item">
+                <i class="fa-solid fa-face-smile"></i>
+                <p><strong>Trusted Service</strong></p>
+                <p>Layanan yang dapat Anda percaya.</p>
+            </div>
+            <!-- Icon 2 -->
+            <div class="icon-item">
+                <i class="fa-solid fa-star"></i>
+                <p><strong>Best Quality</strong></p>
+                <p>Kualitas terjamin terbaik.</p>
+            </div>
+            <!-- Icon 4 -->
+            <div class="icon-item">
+                <i class="fa-solid fa-globe"></i>
+                <p><strong>Free Shipping</strong></p>
+                <p>Gratis Ongkir Seluruh Indonesia</p>
+            </div>
+        </div>
+        <div class="image-side">
+            <img src="assets/gratong.png" alt="Side Image"> <!-- Replace with your side image path -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <img src="assets/logo.png" alt="Footer Logo">
+                </div>
+                <div class="footer-center">
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-contact">
+                        <a href="mailto:hsa@example.com"><i class="far fa-envelope"></i> hsaparfume@gmail.com</a>
+                        <a href="https://wa.me/6212345678"><i class="fab fa-whatsapp"></i> +62 1234 5678</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/hsaparfume"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.twitter.com/hsaparfume"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/hsaparfume"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
